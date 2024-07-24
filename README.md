@@ -13,3 +13,5 @@ Once these requirements are met, you can compare two archives by placing them in
 The script lazily assumed that the archives use the naming convention of `Rt4k_xxx_sdcard.zip`, where `xxx` is the version number. So for it to work properly, ensure the files are named in this way (at least the `Rt4k_xxx part!). So for example, comparing the 1.4.2 zip with 1.5.4 would look like this:
 
 `python rt4k_profile_diff.py Rt4k_142_sdcard.zip  Rt4k_154_sdcardd.zip`
+
+The results are currently displayed in a newly created file called `results.txt`
